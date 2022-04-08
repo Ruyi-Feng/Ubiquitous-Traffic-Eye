@@ -1,10 +1,13 @@
 # Ubiquitous-Traffic-Eye
-The dataset includes quantities vehicle trajectories at several sites. The dataset is extracted from aerial videos. Human work is used to ensure accuracy.
-Each file is a group of dataset, extracted on different sites and time, also in dynamic traffic conditions.
+# Trajectory data introduction
+My data publication is on the way, star me for latest publication.
+
+These datasets include quantities vehicle trajectories at several sites. The dataset is extracted from aerial videos. Labor work is used to ensure accuracy.
+Each file is a group of sample, extracted on different sites and time, also in dynamic traffic conditions.
 
 Data available for download from this website include: video files with object identification box, raw track data and data format description. The original vehicle track data includes vehicle number, position coordinates, lane number, vehicle length, vehicle width, driving speed, time headway, space headway, plus/minus speed and other parameters, with a time accuracy of 0.1 second and a position accuracy of 0.01 m.
 
-# Data can be obtianed now:
+# Data can be obtianed now
 ## SQM1 Dataset
 **Road Condition:** The length of the study road section is 427 meters, east-west direction, including two-way ten Lane East end and two-way six Lane West end. There are two roads merging in the east-west direction, and two roads diverging in the west-east direction, and the number of lanes changes intensively.
 
