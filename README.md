@@ -9,17 +9,15 @@ Data available for download from this website include: video files with object i
 
 # Data can be obtianed now
 
-## locations
-
-[<b>SQM</b><br />SQM-W-1, SQM-W-2](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/SQM)  |  [ <b>YTDJ </b><br />YTDJ-3](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/YTDJ/YTDJ-3)
+[<b>SQM</b><br />](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/SQM) [SQM-W-1](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/SQM/SQM-W-1)    [SQM-W-2](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/SQM/SQM-W-2)  |  [ <b>YTDJ</b><br />YTDJ-3](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/YTDJ/YTDJ-3)
 :-------------------------:|:-------------------------:
-![](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/SQM/blurred-map.png) | ![](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/YTDJ/blurred-map.png)
-[<b>CKQ</b><br />SQM-N-4](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/CKQ/SQM-N-4) | [<b>XAM-N<br />XAM-N-5, XAM-N-6](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/XAM-N)
-![](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/CKQ/blurred-map.png) | ![](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/XAM-N/blurred-map.png)
+![](datasets/SQM/blurred-map.png) | ![](datasets/YTDJ/blurred-map.png)
+[<b>CKQ</b><br />SQM-N-4](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/CKQ/SQM-N-4) | [<b>XAM-N<br />](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/XAM-N)  [XAM-N-5](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/XAM-N/XAM-N-5)    [XAM-N-6](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/XAM-N/XAM-N-6)
+![](datasets/CKQ/blurred-map.png) | ![](datasets/XAM-N/blurred-map.png)
 | [<b>RML</b><br />RML-7](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/RML/RML-7) |  [<b>PKDD</b><br /> PKDD-8](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/PKDD/PKDD-8)
-![](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/RML/blurred-map.png) |   ![](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/PKDD/blurred-map.png)
+![](datasets/RML/blurred-map.png) |   ![](datasets/PKDD/blurred-map.jpg)
 | [<b>XAM-S</b><br />XAM-S-9](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/XAM-S/XAM-S-9) | 
-![](https://github.com/Ruyi-Feng/Ubiquitous-Traffic-Eye/tree/UTE/datasets/XAM-S/blurred-map.png) |
+![](datasets/XAM-S/blurred-map.png) |
 
 
 
