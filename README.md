@@ -1,7 +1,5 @@
-<div align="left" style="display: flex; align-items: center;">
-  <img src="./src/logo_UET.png" alt="UTE Logo" width="60" style="margin-right: 10px;"/>
-  <h1 style="margin: 0;">Ubiquitous Traffic Eye</h1>
-</div>
+
+![UTE Logo](./src/logo_git.png)
 
 ## Trajectory Data Introduction
 Vehicle trajectory data provides critical information for traffic flow modeling and analysis during different traffic states and state transitions.  
