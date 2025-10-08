@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UTE — Data Collection Overview</title>
+  <style>
+    :root{ --bg:#f7fafc; --card:#ffffff; --muted:#6b7280; --accent:#0ea5a4; --border:#e6eef0 }
+    body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:var(--bg); color:#0f172a; margin:24px}
+    .container{max-width:1100px;margin:0 auto}
+    h1{font-size:20px;margin-bottom:8px}
+    p.lead{color:var(--muted);margin-top:0;margin-bottom:18px}
+    .card{background:var(--card);border:1px solid var(--border);box-shadow:0 6px 18px rgba(12, 20, 26, 0.04);border-radius:12px;padding:18px}
+    table{width:100%;border-collapse:collapse;font-size:13px}
+    thead th{position:sticky;top:0;background:#fff;padding:10px 12px;border-bottom:2px solid var(--border);text-align:left}
+    tbody td{padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top}
+    tbody tr:nth-child(odd){background:transparent}
+    tbody tr:hover{background:linear-gradient(90deg, rgba(14,165,164,0.06), rgba(14,165,164,0.02))}
+    .muted{color:var(--muted);font-size:12px}
+    .coords{font-family:monospace;font-size:12px;color:#0b7285}
+    .chip{display:inline-block;padding:4px 8px;border-radius:999px;background:#f1f8f8;border:1px solid rgba(14,165,164,0.08);font-size:12px}
+    .summary-row{background:#fbfdfe;border-left:4px solid var(--accent)}
+    /* responsive */
+    @media (max-width:900px){
+      thead th:nth-child(4), tbody td:nth-child(4), thead th:nth-child(5), tbody td:nth-child(5){display:none}
+      thead th:nth-child(6), tbody td:nth-child(6){display:none}
+    }
+    /* small utility */
+    .right{text-align:right}
+    details{margin-bottom:8px}
+    summary{cursor:pointer;padding:8px;border-radius:8px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>UTE — Data Collection Overview</h1>
+    <p class="lead">Interactive HTML table of all collection sites and sections. Hover rows for emphasis; use the expanders to focus on one site. Copy / embed this file into your GitHub Pages or docs.</p>
+
+    <div class="card">
+      <details open>
+        <summary><strong>All Sites — Combined Table</strong> <span class="muted">(Click to collapse)</span></summary>
+
+        <div style="overflow:auto;margin-top:12px">
+          <table role="table" aria-label="UTE data table">
+            <thead>
+              <tr>
+                <th>Site ID & Name</th>
+                <th>Segment Length (m)</th>
+                <th>Duration (s)</th>
+                <th># Trajectories</th>
+                <th>Lane Layout</th>
+                <th>Location Type</th>
+                <th>Coordinates (Lat, Lon)</th>
+                <th>Speed Limit (Km/h)</th>
+                <th>Traffic Conditions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="summary-row">
+                <td>Expressway 1 (SQM1)</td>
+                <td class="right">427</td>
+                <td class="right">255</td>
+                <td class="right">1041</td>
+                <td class="right">5×2</td>
+                <td>Merge/Diverge Segment</td>
+                <td class="coords">32.005548, 118.789275</td>
+                <td class="right">80</td>
+                <td>From free-flow to congestion in morning peak hours, with obvious stop-and-go waves.</td>
+              </tr>
+
+              <tr>
+                <td>Expressway 1 (SQM2)</td>
+                <td class="right">386</td>
+                <td class="right">400</td>
+                <td class="right">1420</td>
+                <td class="right">5×1</td>
+                <td>Merge/Diverge Segment</td>
+                <td class="coords">32.005548, 118.789275</td>
+                <td class="right">80</td>
+                <td>From free-flow to congestion in morning peak hours, with obvious stop-and-go waves.</td>
+              </tr>
+
+              <tr>
+                <td>Expressway 2 (YTAvenue3)</td>
+                <td class="right">362</td>
+                <td class="right">545</td>
+                <td class="right">1072</td>
+                <td class="right">5×2</td>
+                <td>Merge/Diverge Segment</td>
+                <td class="coords">32.005887, 118.781899</td>
+                <td class="right">80</td>
+                <td>Congested traffic in morning peak hours, with obvious stop-and-go waves.</td>
+              </tr>
+
+              <tr>
+                <td>Expressway 3 (CKQ4)</td>
+                <td class="right">352</td>
+                <td class="right">1184</td>
+                <td class="right">2513</td>
+                <td class="right">5×2</td>
+                <td>Weaving Segment</td>
+                <td class="coords">32.010155, 118.796739</td>
+                <td class="right">80</td>
+                <td>Unimpeded traffic.</td>
+              </tr>
+
+              <tr>
+                <td>Urban Road 1 (XAM-N5)</td>
+                <td class="right">140</td>
+                <td class="right">264</td>
+                <td class="right">862</td>
+                <td class="right">5×2</td>
+                <td>Weaving Segment</td>
+                <td class="coords">32.053866, 118.807840</td>
+                <td class="right">60</td>
+                <td>From free-flow to congestion in afternoon peak hours, with obvious stop-and-go waves.</td>
+              </tr>
+
+              <tr>
+                <td>Urban Road 1 (XAM-N6)</td>
+                <td class="right">140</td>
+                <td class="right">366</td>
+                <td class="right">900</td>
+                <td class="right">5×2</td>
+                <td>Weaving Segment</td>
+                <td class="coords">32.053866, 118.807840</td>
+                <td class="right">60</td>
+                <td>From free-flow to congestion in afternoon peak hours, with obvious stop-and-go waves.</td>
+              </tr>
+
+              <tr>
+                <td>Expressway 4 (RML7)</td>
+                <td class="right">220</td>
+                <td class="right">300</td>
+                <td class="right">555</td>
+                <td class="right">4×1</td>
+                <td>Merge Segment</td>
+                <td class="coords">28.182147, 113.017548</td>
+                <td class="right">80</td>
+                <td>Unimpeded traffic to congestion.</td>
+              </tr>
+
+              <tr>
+                <td>Urban Road 2 (PKDD8)</td>
+                <td class="right">280</td>
+                <td class="right">1066</td>
+                <td class="right">1477</td>
+                <td class="right">4×2</td>
+                <td>Basic Segment</td>
+                <td class="coords">32.067824, 118.664783</td>
+                <td class="right">80</td>
+                <td>Free flow.</td>
+              </tr>
+
+              <tr>
+                <td>Urban Road 3 (XAM-S9)</td>
+                <td class="right">180</td>
+                <td class="right">300</td>
+                <td class="right">463</td>
+                <td class="right">6×1</td>
+                <td>Weaving Segment</td>
+                <td class="coords">32.037338, 118.803662</td>
+                <td class="right">60</td>
+                <td>Free flow to congestion in afternoon peak hours, with obvious stop-and-go waves.</td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </details>
+
+      <p class="muted" style="margin-top:12px">Tip: copy this file into your repository (e.g., <code>docs/ute_table.html</code>) and link to it from README for a nicer, interactive view.</p>
+
+    </div>
+
+  </div>
+</body>
+</html>
